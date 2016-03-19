@@ -65,7 +65,7 @@
 
 .button-nav:hover {
     border: solid #a3a3a3 5px;
-    color: #a3a3a3; 
+    color: #a3a3a3
 }
 
 body {
@@ -6689,7 +6689,7 @@ body {
   background-attachment: fixed;
 }
 .section-primary {
-  background-color: #281140 !important;
+  background-color:rgba(54,85,133,1) !important;
   color: #ffffff;
 }
 .section-primary .background-image {

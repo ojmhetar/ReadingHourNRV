@@ -6,3 +6,22 @@
   border: solid #ffffff 5px;
   text-decoration: none;
 }
+
+.button-nav:hover {
+    border: solid #a3a3a3 5px;
+    color: #a3a3a3; 
+}
+
+.cont-padding{
+    padding-left:100px; 
+    padding-right:100px; 
+}
+
+body {
+    font-family: Arial;
+}
+
+.section-primary {
+  background-color:rgba(54,85,133,1) !important;
+  color: #ffffff;
+}
