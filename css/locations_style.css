@@ -12,17 +12,7 @@ h3 {
   color: #ffffff;
 }
 
-a {
-  -webkit-transition: color 0.25s ease-in-out;
-  transition: color 0.25s ease-in-out;
-  font-family: Times New Roman, sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #dff3fd;
-}
-a:visited {
-  color: #dff3fd;
-}
+
 li.active a, a:hover, a:active {
   color: #e5e5e5;
 }
@@ -217,4 +207,25 @@ li:hover::before {
 li:hover .details {
 	display: block;
   color: #444;
+}
+
+
+a.button-nav{   
+    color: rgba(216,80,97,1);
+    text-decoration: none;
+}
+
+.button-nav {
+  font-family: Arial;
+  color: rgba(216,80,97,1);
+  font-size: 32px;
+  padding: 10px 20px 10px 20px;
+  border: solid rgba(216,80,97,1) 5px;
+  text-decoration: none;
+  margin: 20px; 
+}
+
+.button-nav:hover {
+    border: solid #a3a3a3 5px;
+    color: #a3a3a3
 }
